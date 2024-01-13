@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding:0px 2rem ;
+}
+ .header {
+    padding: 2rem;
+   text-align: center;
+   margin: 1rem 0;
+}
+
+header .title{
+    margin-bottom: 1rem;
+}
+
+.tribute {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 0 0 1rem;
+}
+
+.tribute blockquote {
+    font-size: 3rem;
+    text-align: center;
+}
+.tribute img{
+    max-width: 100%;
+}
+
+.bio {
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width:40rem;
+}
+.bio h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.bio hr{
+    margin-top: 2rem;
+}
